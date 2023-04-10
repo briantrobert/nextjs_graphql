@@ -21,14 +21,24 @@
 
 # debug
 npm-debug.log*
-*.lock
-*-lock.json
 yarn-debug.log*
 yarn-error.log*
-.pnpm-debug.log*
+*.lock
 
-# local env files
-.env*.local
+# ide configuration files
+.idea/
+
+.vscode/
+
+*-lock.json
+*.snap
+
+# env
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
 # vercel
 .vercel
