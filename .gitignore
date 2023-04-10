@@ -21,7 +21,7 @@
 
 # debug
 npm-debug.log*
-*-lock.json
+*.lock
 yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
